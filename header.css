@@ -1,0 +1,20 @@
+body{
+    margin: 0px;
+}
+.i1{
+    width: 88%;
+    margin-top: -3vh;
+}
+.advance{
+    text-decoration: none;
+    color: grey;
+}
+.advance:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+.img1{
+    background-size: cover;
+    height:40vh;
+}

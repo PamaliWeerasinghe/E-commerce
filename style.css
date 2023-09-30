@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+@font-face {
+    font-family: "Fasthand";
+    src: url("font/Fasthand.ttf");
+}
+
+body{
+    background-color: rgb(242, 247, 252);
+    margin: 0;
+    overflow-x: hidden;
+}
+.a1{
+    margin-left: 10%;
+}
+.a1:hover{
+    text-decoration:underline;
+}
+
+*{
+  font-size:14px;
+  font-family: "Quicksand";
+   
+ 
+} 
+.img{
+    border-radius: 100%;
+    transition: 0.5;
+    background-size: cover;
+}
+.brand{
+    text-decoration: none;
+    color: black;
+}
+.brand:hover{
+    color: black;
+    text-decoration:underline;
+   
+    
+}
+
+.img:hover{
+    border:solid;
+    border-color:grey;
+    /* box-shadow: 2px; */
+    transition: 0.5;
+}
+.image1:hover{
+    cursor: pointer;
+}
+.cart1{
+    font-weight:bolder; 
+    margin-left:10%; 
+    /* margin-top:2vh; */
+}
+.cart2{
+    margin-top:-20px; 
+    margin-left:-10px; 
+    height:20px; 
+    width:20px; 
+    border-radius:100%; 
+    font-size:9px; 
+    font-weight:bold;
+}
+.image2{
+   width: 80px;
+   height: 80px;
+   margin-top: 1vh;
+}
+.image2:hover{
+    cursor: pointer;
+    background-color:rgb(174, 172, 172) ;
+}
+.mainImg{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: cover;
+}
+.di1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    background-image: url("resources/logos/logo.gif");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:60vh;
+}
+.title02{
+    font-size: 25px;
+    font-weight: bold;
+}
+.title01{
+    font-family: "Honey";
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.img2{
+    height: 22vh;
+    margin-top: -1vh;
+   
+}
+.img3{
+    height: 22vh;
+    margin-top: -1vh;
+    margin-left: -24%;
+   
+}
+.img1{
+    height: 28vh;
+    /*border-radius: 100%;*/
+   
+    margin-top: -5vh;
+    margin-left: 0%;
+}
+.pro1{
+    border-radius: 100%;
+}
+.chatViewRight{
+    
+   align-items: center;
+   justify-content: center;
+    border-radius:20px;
+    width:50%;
+    height:5vh;
+    background-color:rgb(176,196,222);
+    
+   
+}
+.chatViewLeft{
+    align-items: center;
+    justify-content: center;
+    border-radius:20px;
+    width:50%;
+    height:5vh;
+    background-color:rgb(173, 172, 172);
+
+    
+}
